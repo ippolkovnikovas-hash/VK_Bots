@@ -1,12 +1,34 @@
-<<<<<<< HEAD
-
-.idea/
-=======
-.env
-venv/
+﻿# Python
 __pycache__/
-*.pyc
-.idea/
-.vscode/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.db
+*.sqlite3
 *.log
->>>>>>> ac1a5967866af877ac6dba74fd4e657e0b51b252
+.env
+*.pyc
+*.pyd
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+
+# Project specific
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+bot.log
+nohup.out
